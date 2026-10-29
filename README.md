@@ -1,8 +1,10 @@
 # Chest Rename
 
-## Setup
+## Use
 
-For setup instructions, please see the [Fabric Documentation page](https://docs.fabricmc.net/develop/getting-started/creating-a-project#setting-up) related to the IDE that you are using.
+Open a chest or trapped chest and click the small pencil icon at the upper-left of the chest window to enter a name. The custom name replaces **Chest** or **Large Chest** in the inventory title and appears below the crosshair when you target either half. Press Enter or click **Save** to keep the name; save it empty to remove the existing name.
+
+Names are stored on your client in `config/chest-rename.properties`, keyed by world, dimension, and block position. They are client-side labels and are not synced to other players or stored in the world.
 
 ## License
 
